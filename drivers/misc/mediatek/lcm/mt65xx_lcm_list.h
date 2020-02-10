@@ -6,8 +6,8 @@
 #if defined(MTK_LCM_DEVICE_TREE_SUPPORT)
 extern LCM_DRIVER lcm_common_drv;
 #else
-//lenovo_sw wuwl10 20150727 add for lcm
-extern LCM_DRIVER nt35596_fhd_dsi_vdo_tm_lcm_drv;
+//added micromax e453's add for lcm
+extern LCM_DRIVER ili9885b_fhd_dsi_vdo_txd_asi_al1518_lcm_drv;
 extern LCM_DRIVER otm1901_fhd_dsi_vdo_boe_lcm_drv;
 extern LCM_DRIVER otm1282a_hd720_dsi_vdo_60hz_lcm_drv;
 extern LCM_DRIVER otm1282a_hd720_dsi_vdo_lcm_drv;

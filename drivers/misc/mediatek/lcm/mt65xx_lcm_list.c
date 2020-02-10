@@ -23,9 +23,9 @@ LCM_DRIVER *lcm_driver_list[] = {
 #if defined(MTK_LCM_DEVICE_TREE_SUPPORT)
 	&lcm_common_drv,
 #else
-//lenovo_sw wuwl10 20150727 add for lcm begin
-#if defined(NT35596_FHD_DSI_VDO_TM)
-	&nt35596_fhd_dsi_vdo_tm_lcm_drv,
+//micromax add for lcm
+#if defined(ILI9885B_FHD_DSI_VDO_TXD_ASI_AL1518)
+	&ili9885b_fhd_dsi_vdo_txd_asi_al1518_lcm_drv,
 #endif	
 #if defined(OTM1901_FHD_DSI_VDO_BOE)
 	&otm1901_fhd_dsi_vdo_boe_lcm_drv,
